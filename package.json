@@ -1,0 +1,25 @@
+{
+  "name": "api-pdf-generator",
+  "version": "1.0.0",
+  "description": "API em Node.js que consulta uma API externa, gera um PDF com os dados retornados e disponibiliza para download.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardochimchek/api-pdf-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardochimchek/api-pdf-generator/issues"
+  },
+  "homepage": "https://github.com/Eduardochimchek/api-pdf-generator#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "pdfkit": "^0.16.0"
+  }
+}
